@@ -1,0 +1,94 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 600px;
+    width: 600px;
+    margin-top: -300px;
+    margin-left: -300px;
+
+    border-radius: 8px;
+    box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.3);
+    background: #E5E5E5;
+}
+
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+#welcomeMessage {
+    font-size: 2.3em;
+    font-weight: 700;
+    color: blueviolet;
+    text-align: center;
+}
+
+.info {
+  font-size: 1.7em;
+  color: blue;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.buttons {
+  margin: 20px auto 20px;
+  width: 460px;
+}
+button {
+  font-family: 'Montserrat', sans-serif;
+  width: 150px;
+  height: 100px;
+  cursor: pointer;
+  font-size: 1.7em;
+  border-radius: 8px;
+}
+
+#rock {
+  background: #ffc0a5;
+}
+
+#paper {
+  background: #ffdfa5;
+}
+
+#scissors {
+  background: #f5ffa5
+}
+
+.score {
+  text-align: left;
+  font-size: 1.2em;
+  line-height: 48px;
+  color: black;
+}
+
+.round-result {
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.computer-choice {
+  text-align: center;
+  font-size: 1em;
+  color: royalblue;
+}
+
+.player-score, .computer-score {
+  font-weight: 500;
+}
+
+.final-result {
+  color: magenta;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+}
